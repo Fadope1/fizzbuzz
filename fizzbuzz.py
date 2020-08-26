@@ -6,7 +6,7 @@ def fizzbuzz(number: int, div_nums=None) -> str:
         # if current number is divisable by div_nr add corresponding word to output
         if number%div_nr == 0: output += div_numbers[div_nr]
 
-    return number if output==False else output
+    return str(number) if output==False else output
 
 for i in range(1, 101):
     print(i, fizzbuzz(i))
