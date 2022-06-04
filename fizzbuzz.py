@@ -29,7 +29,7 @@ def flexible_fizzbuzz(number: int, div_nums=None) -> str:
 if __name__ == "__main__":
     # standard way
     for index in range(0, 101):
-        print(f"{index=} => {flexible_fizzbuzz(index)} | {standard_fizzbuzz(index)}")
+        print(f"{index=} => {standard_fizzbuzz(index)}")
 
     # flexible way
     for index in range(0, 101):
